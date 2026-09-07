@@ -68,7 +68,7 @@
    LLM_MODEL=openai/gpt-4o-mini
 
    # Security & CORS
-   ALLOWED_ORIGINS=http://localhost:3000,http://localhost:3005,https://0xabdullah27.github.io
+   ALLOWED_ORIGINS=http://localhost:3000,http://localhost:3005,https://abdullahqureshi27.github.io
    RATE_LIMIT_PER_MINUTE=20
    ADMIN_INGEST_KEY=your_secret_admin_ingest_key
    ```

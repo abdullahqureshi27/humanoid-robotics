@@ -29,12 +29,12 @@ const config: Config = {
   ],
 
   // Set the production url of your site here
-  url: 'https://0xabdullah27.github.io',
+  url: 'https://abdullahqureshi27.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   baseUrl: '/humanoid-robotics/',
 
   // GitHub pages deployment config.
-  organizationName: '0xabdullah27', // Usually your GitHub org/user name.
+  organizationName: 'abdullahqureshi27', // Usually your GitHub org/user name.
   projectName: 'humanoid-robotics', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -55,7 +55,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           editUrl:
-            'https://github.com/0xabdullah27/humanoid-robotics/edit/main/book-source/docs/',
+            'https://github.com/abdullahqureshi27/humanoid-robotics/edit/main/book-source/docs/',
         },
         blog: false, // Disable blog functionality for the book
         theme: {
@@ -106,7 +106,7 @@ const config: Config = {
           label: 'VLA Pipeline',
         },
         {
-          href: 'https://github.com/0xabdullah27/humanoid-robotics',
+          href: 'https://github.com/abdullahqureshi27/humanoid-robotics',
           position: 'right',
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
@@ -168,11 +168,15 @@ const config: Config = {
           items: [
             {
               label: 'GitHub Repository',
-              href: 'https://github.com/0xabdullah27/humanoid-robotics',
+              href: 'https://github.com/abdullahqureshi27/humanoid-robotics',
             },
             {
               label: 'Issues & Discussions',
-              href: 'https://github.com/0xabdullah27/humanoid-robotics/issues',
+              href: 'https://github.com/abdullahqureshi27/humanoid-robotics/issues',
+            },
+            {
+              label: 'Author Portfolio',
+              href: 'https://abdullah-qureshi.vercel.app',
             },
             {
               label: 'AI Agentic Copilot',
@@ -181,7 +185,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Vectra Physical AI & Humanoid Robotics. Engineered for Next-Gen Autonomous Systems.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Vectra Physical AI & Humanoid Robotics. Designed & Built by <a href="https://abdullah-qureshi.vercel.app" target="_blank" rel="noopener noreferrer">Abdullah Qureshi</a>`,
     },
     prism: {
       theme: prismThemes.github,

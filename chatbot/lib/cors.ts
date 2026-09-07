@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 const DEFAULT_ALLOWED_ORIGINS = [
   'http://localhost:3000',
   'http://localhost:3001',
-  'https://0xabdullah27.github.io',
+  'https://abdullahqureshi27.github.io',
 ];
 
 export function getCorsHeaders(req: NextRequest): Record<string, string> {
